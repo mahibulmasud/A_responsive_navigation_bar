@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+    .nav-main{
+        grid-template-columns: 4fr 4fr 4fr;
+        position:relative;
+    }
+    .nav-child2{
+        display: none;
+    }
+    .nav-child3{
+        display: grid;
+        justify-content: end;
+    }
+    .contact-button{
+        display: none;
+    }
+    .humber{
+        display: block;
+    }
+    .humber>div{
+        margin-top: 10px;
+    }
+    .humber>div:first-child{
+        margin-top: 0px;
+    }
+    .navDropdwon {
+        background-image: url(../images/hero11.png);
+        background-position: right;
+        background-position-y: center;
+        width: 100%;
+        height: 759px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 130px;
+        left: 0;
+        display: none;
+    }
+    .navDropdwon ul{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .navDropdwon ul li{
+        list-style-type: none;
+        margin-top: 35px;
+    }
+    .navDropdwon ul li:first-child{
+        margin-top: 0px;
+    }
+    .navDropdwon ul li a{
+        color: #272727;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .contact-li {
+        background-color: var(--main-color);
+        padding: 15px;
+        margin-top: 55px !important;
+    }
+    .contact-li span{
+        color: #fff;
+    }
+    .contact-li i{
+        color: #fff;
+    }
+    #line-1, #line-2, #line-3{
+        transition: all 0.3s;
+    }
+    
+  }
+  @media screen and (min-width: 769px) {
+    .humber{
+        display: none;
+    }
+    .dropdwon-nav-child2{
+        display: none;
+    }
+    .navDropdwon{
+        display: none;
+    }
+  }
+  /* @media screen and (max-width: 600px) {
+    .nav-child1 img{
+        height: 34px;
+        width: 96px;
+    }
+    .humber>div{
+        background-color: var(--main-color);
+        width: 25px;
+        height:3px;
+        margin-top: 5px;
+    }
+  } */
